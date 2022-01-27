@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS photo_problem;
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  full_name TEXT NOT NULL UNIQUE,
+  email TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE photo_problem (
+  id SERIAL PRIMARY KEY,
+  filename TEXT NOT NULL UNIQUE,
+  user_id INTEGER REFERENCES users(id)
+);
