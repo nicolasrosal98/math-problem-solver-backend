@@ -1,4 +1,4 @@
-# Pastebin Back-end
+# Photo math problem solver (back-end)
 
 This repo sets up the backend for a photo math problem solver. The project uses tensorflow.js to create a CNN capable of recognising digits and mathematical symbols (+, -, and x) in an image provided by the user. An endpoint allows for users to upload a picture and get a prediction of the symbols and digits. 
 
