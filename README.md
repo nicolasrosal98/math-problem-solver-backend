@@ -1,11 +1,10 @@
-# mark-fullstack-proj--starter-1
+# Pastebin Back-end
 
-## Usage:
+This repo sets up the backend for a photo math problem solver. The project uses tensorflow.js to create a CNN capable of recognising digits and mathematical symbols (+, -, and x) in an image provided by the user. An endpoint allows for users to upload a picture and get a prediction of the symbols and digits. 
 
-Instead of cloning this project, click "Use this template".  This will allow you to create a repo on github which has this project's content but which is not a fork of it.
+[Heroku Server](https://math-problem-solver-backend.herokuapp.com/) (Use /pastes path to get data from database)
 
-Make sure you create the repo as being owned by your own account not by the WeAreAcademy organisation.
-
+[Front-end Repo](https://github.com/nicolasrosal98/math-problem-solver-frontend)
 
 ## Install
 
